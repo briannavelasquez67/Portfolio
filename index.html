@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Brianna Velasquez · Portafolio de Diseño de Interiores</title>
+<meta name="description" content="Portafolio 2026 de Brianna Velasquez, diseñadora de interiores orientada al diseño comercial: retail, showrooms y locales.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/css/index.css">
+</head>
+<body>
+
+<!-- estrella reutilizable como símbolo -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="star" viewBox="0 0 24 24">
+    <path d="M12 0c.6 6 5.4 10.8 12 12-6.6 1.2-11.4 6-12 12-.6-6-5.4-10.8-12-12C6.6 10.8 11.4 6 12 0z"/>
+  </symbol>
+</svg>
+
+<!-- Barra fija: aparece al salir de la portada -->
+<header id="site-header">
+  <div class="wrap nav">
+    <a href="#top" class="brand"><span class="spark"><svg><use href="#star"/></svg></span> Brianna Velasquez</a>
+    <nav class="nav-links">
+      <a href="#about">Sobre mí</a>
+      <a href="#perfil">Formación</a>
+      <a href="#work">Proyectos</a>
+      <a href="#contact" class="btn">Hablemos</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Menú a pantalla completa (botón ☰ de la portada) -->
+<div class="menu" id="menu" aria-hidden="true">
+  <button class="menu-close" type="button" aria-label="Cerrar menú">✕</button>
+  <nav>
+    <a href="#about"><i>01</i>Sobre mí</a>
+    <a href="#perfil"><i>02</i>Formación</a>
+    <a href="#work"><i>03</i>Proyectos</a>
+    <a href="#contact"><i>04</i>Contacto</a>
+  </nav>
+</div>
+
+<!-- ============ PORTADA · F O R M A ============ -->
+<section class="cover" id="top">
+  <h1 class="sr-only">Brianna Velasquez — Portafolio de Diseño de Interiores 2026</h1>
+
+  <div class="col c1">
+    <a href="#top" class="cover-brand"><span class="spark"><svg><use href="#star"/></svg></span><span>Brianna<br>Velasquez</span></a>
+    <span class="big-l" aria-hidden="true">F</span>
+    <span class="col-n">01</span>
+  </div>
+
+  <div class="col c2">
+    <img src="src/img/perfil-retrato.jpg" alt="Brianna Velasquez" class="cover-photo">
+    <div class="cover-o" aria-hidden="true">
+      <svg viewBox="0 0 200 200">
+        <defs>
+          <mask id="o-hole">
+            <rect width="200" height="200" fill="#fff"/>
+            <ellipse cx="100" cy="100" rx="40" ry="82" transform="rotate(24 100 100)" fill="#000"/>
+          </mask>
+        </defs>
+        <circle cx="100" cy="100" r="100" mask="url(#o-hole)"/>
+      </svg>
+      <span>Espacios<br>que<br>venden</span>
+    </div>
+    <span class="col-n on-photo">02</span>
+  </div>
+
+  <div class="col c3">
+    <span class="big-l" aria-hidden="true">R</span>
+    <a href="#about" class="cover-note">
+      Diseñadora de interiores orientada al diseño comercial: retail, showrooms y locales que se ven bien y venden mejor.
+      <span class="arrow" aria-hidden="true">↙</span>
+    </a>
+    <span class="col-n">03</span>
+  </div>
+
+  <div class="col c4">
+    <span class="big-l" aria-hidden="true">M</span>
+    <span class="col-n">04</span>
+  </div>
+
+  <div class="col c5">
+    <button class="burger" type="button" aria-label="Abrir menú" aria-controls="menu"><span></span><span></span><span></span></button>
+    <span class="big-l" aria-hidden="true">A</span>
+    <span class="col-n">05</span>
+    <span class="copy">Portafolio © 2026</span>
+  </div>
+</section>
+<p class="cover-note-mobile">Diseñadora de interiores orientada al diseño comercial: retail, showrooms y locales que se ven bien y venden mejor.</p>
+
+<!-- ============ SOBRE MÍ ============ -->
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <span class="eyebrow"><span class="spark"><svg><use href="#star"/></svg></span> Sobre mí</span>
+      <h2>Soy Brianna Velasquez.</h2>
+      <p class="about-role">Diseñadora de interiores</p>
+      <p>Me motiva crear espacios funcionales y llenos de significado, orientándome al <strong>diseño comercial</strong>: retail, showrooms y locales. Disfruto cada etapa del proceso: escuchar al usuario y ver cómo una idea se vuelve un lugar real.</p>
+      <p>Trabajo el proyecto de principio a fin —levantamiento de medidas, planos técnicos en AutoCAD y propuestas 3D en SketchUp— diseñando pensando en quien entra, se queda y compra.</p>
+      <div class="about-contact">
+        <a class="chip" href="tel:+51906113162"><b>Tel</b> 906 113 162</a>
+        <a class="chip" href="mailto:briannavaleriav@gmail.com"><b>Correo</b> briannavaleriav@gmail.com</a>
+        <a class="chip" href="https://www.linkedin.com/in/brianna-velasquez-dis" target="_blank" rel="noopener"><b>LinkedIn</b> brianna-velasquez-dis</a>
+      </div>
+    </div>
+    <div class="portrait reveal">
+      <img src="src/img/perfil-columpio.jpg" alt="Brianna Velasquez sentada en un columpio de madera">
+      <div class="tag-float">Diseñadora + Marketing</div>
+      <figure class="inset">
+        <img src="src/img/perfil-levantamiento.jpg" alt="Brianna haciendo levantamiento de medidas en obra">
+        <figcaption>Levantamiento en campo</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FORMACIÓN · SOFTWARE · IDIOMAS ============ -->
+<section class="perfil" id="perfil">
+  <div class="wrap perfil-grid">
+    <div class="reveal">
+      <span class="eyebrow"><span class="spark"><svg><use href="#star"/></svg></span> Educación</span>
+      <ol class="timeline">
+        <li>
+          <span class="t-year">2026 — Actualidad</span>
+          <h3>Universidad Privada del Norte</h3>
+          <p>Formación en Administración y Marketing, sumando visión de negocio y estrategia comercial a mi perfil de diseño.</p>
+        </li>
+        <li>
+          <span class="t-year">2023 — 2025</span>
+          <h3>Instituto Diseño y Comunicación</h3>
+          <p>Formación técnica en Diseño de Interiores: planos, modelado 3D, selección de materiales y desarrollo de proyectos desde el concepto hasta la presentación final.</p>
+        </li>
+      </ol>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow"><span class="spark"><svg><use href="#star"/></svg></span> Software</span>
+      <ul class="soft">
+        <li><b>Diseño técnico y 3D</b><span>AutoCAD</span><span>SketchUp</span><span>V-Ray</span></li>
+        <li><b>Gráfico y presentación</b><span>Photoshop</span><span>Canva</span><span>PowerPoint</span></li>
+        <li><b>Gestión</b><span>Word</span><span>Excel</span></li>
+        <li><b>IA aplicada</b><span>ChatGPT</span><span>Claude</span></li>
+      </ul>
+      <span class="eyebrow eyebrow-gap"><span class="spark"><svg><use href="#star"/></svg></span> Idiomas</span>
+      <div class="langs">
+        <div><b>Español</b><span>Nativo</span></div>
+        <div><b>Inglés</b><span>Intermedio</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROYECTOS ============ -->
+<section class="projects" id="work">
+  <div class="wrap">
+    <div class="proj-head reveal">
+      <h2>Proyectos</h2>
+      <div class="proj-filters" role="group" aria-label="Filtrar proyectos">
+        <button type="button" class="act" data-f="all">Todos</button>
+        <button type="button" data-f="comercial">Comercial</button>
+        <button type="button" data-f="3d">Visualización 3D</button>
+        <button type="button" data-f="profesional">Profesional</button>
+      </div>
+    </div>
+
+    <!-- 01 · ANGEL DE CANELA -->
+    <article class="project reveal" data-cat="comercial 3d profesional">
+      <div class="project-inner">
+        <div class="p-text">
+          <div class="p-index">01</div>
+          <span class="p-cat">Visualización 3D · Tienda de ropa</span>
+          <h3 class="p-title">Angel de Canela</h3>
+          <dl class="p-meta">
+            <div><dt>Rol</dt><dd>Modelado y visualización</dd></div>
+            <div><dt>Cliente</dt><dd>Angel de Canela</dd></div>
+            <div><dt>Año</dt><dd>2026</dd></div>
+          </dl>
+          <p class="p-context">A partir de una referencia de diseño del cliente y del levantamiento del local, desarrollé el modelado completo en SketchUp y los renders finales, adaptando el concepto al espacio real.</p>
+          <p class="p-context">El reto: traducir una idea en imágenes realistas —proporciones, materiales, iluminación y texturas— para que el cliente viera su tienda antes de construirla.</p>
+          <div class="palette">
+            <div class="lbl">Materiales & paleta</div>
+            <div class="swatches">
+              <span class="sw" style="background:#f4f2ef" title="Blanco mármol"></span>
+              <span class="sw" style="background:#d9cfc6" title="Nude"></span>
+              <span class="sw" style="background:#c8b28e" title="Madera clara"></span>
+              <span class="sw" style="background:#8a8580" title="Gris cemento"></span>
+              <span class="sw" style="background:#5d7a4a" title="Verde follaje"></span>
+            </div>
+          </div>
+        </div>
+        <div class="p-media">
+          <figure class="tile big"><img src="src/img/canela-6.jpg" alt="Angel de Canela: vista frontal de la tienda con letrero" loading="lazy"></figure>
+          <figure class="tile"><img src="src/img/canela-1.jpg" alt="Angel de Canela: exhibidores laterales iluminados" loading="lazy"></figure>
+          <figure class="tile"><img src="src/img/canela-3.jpg" alt="Angel de Canela: probador y muro de mármol" loading="lazy"></figure>
+        </div>
+      </div>
+      <div class="strip">
+        <figure><img src="src/img/canela-fachada.jpg" alt="Angel de Canela: fachada dentro de la galería comercial" loading="lazy"><figcaption>Fachada en galería</figcaption></figure>
+        <figure><img src="src/img/canela-2.jpg" alt="Angel de Canela: pasillo central" loading="lazy"><figcaption>Recorrido</figcaption></figure>
+        <figure><img src="src/img/canela-4.jpg" alt="Angel de Canela: caja y probador" loading="lazy"><figcaption>Caja</figcaption></figure>
+        <figure><img src="src/img/canela-5.jpg" alt="Angel de Canela: exhibición de prendas" loading="lazy"><figcaption>Exhibición</figcaption></figure>
+      </div>
+    </article>
+
+    <!-- 02 · SALÓN DE BELLEZA ÁUREA -->
+    <article class="project rev reveal" data-cat="comercial">
+      <div class="project-inner">
+        <div class="p-media">
+          <figure class="tile big"><img src="src/img/aurea-1.jpg" alt="Salón Áurea: vista general con recepción y tocadores" loading="lazy"></figure>
+          <figure class="tile"><img src="src/img/aurea-6.jpg" alt="Salón Áurea: zona de pedicure" loading="lazy"></figure>
+          <figure class="tile"><img src="src/img/aurea-3.jpg" alt="Salón Áurea: recepción con logotipo" loading="lazy"></figure>
+        </div>
+        <div class="p-text">
+          <div class="p-index">02</div>
+          <span class="p-cat">Diseño de interiores · Espacio comercial</span>
+          <h3 class="p-title">Salón de belleza Áurea</h3>
+          <dl class="p-meta">
+            <div><dt>Tipo</dt><dd>Proyecto académico</dd></div>
+            <div><dt>Institución</dt><dd>Instituto Diseño y Comunicación</dd></div>
+            <div><dt>Año</dt><dd>2025</dd></div>
+          </dl>
+          <p class="p-context">Un salón que transmite calma profunda, bienestar y belleza equilibrada. Invita a desconectar del ritmo cotidiano a través de una experiencia suave, cálida y consciente.</p>
+          <p class="p-context">Cada detalle busca confort y confianza: que cada persona se sienta valorada, acogida y renovada.</p>
+          <div class="palette">
+            <div class="lbl">Materiales & paleta</div>
+            <div class="swatches">
+              <span class="sw" style="background:#d8cbc2" title="Arena"></span>
+              <span class="sw" style="background:#c8c3bf" title="Gris perla"></span>
+              <span class="sw" style="background:#cdaebc" title="Rosa empolvado"></span>
+              <span class="sw" style="background:#231f18" title="Grafito"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="strip">
+        <figure><img src="src/img/aurea-4.jpg" alt="Salón Áurea: zona de espera" loading="lazy"><figcaption>Espera</figcaption></figure>
+        <figure><img src="src/img/aurea-5.jpg" alt="Salón Áurea: cabina de tratamiento" loading="lazy"><figcaption>Cabina</figcaption></figure>
+        <figure class="plan"><img src="src/img/aurea-2.jpg" alt="Salón Áurea: axonometría del local" loading="lazy"><figcaption>Axonometría</figcaption></figure>
+        <figure class="plan"><img src="src/img/aurea-planta.jpg" alt="Salón Áurea: planta" loading="lazy"><figcaption>Planta</figcaption></figure>
+        <figure class="plan corte"><img src="src/img/aurea-corte-a.jpg" alt="Salón Áurea: corte A-A'" loading="lazy"><figcaption>Corte A-A’</figcaption></figure>
+        <figure class="plan corte"><img src="src/img/aurea-corte-b.jpg" alt="Salón Áurea: corte B-B'" loading="lazy"><figcaption>Corte B-B’</figcaption></figure>
+      </div>
+    </article>
+
+    <!-- 03 · CAFETERÍA CRÈME -->
+    <article class="project reveal" data-cat="comercial">
+      <div class="project-inner">
+        <div class="p-text">
+          <div class="p-index">03</div>
+          <span class="p-cat">Espacio comercial + Visualización con IA</span>
+          <h3 class="p-title">Cafetería Crème</h3>
+          <dl class="p-meta">
+            <div><dt>Curso</dt><dd>Taller de Diseño Comercial II</dd></div>
+            <div><dt>Institución</dt><dd>Instituto Diseño y Comunicación</dd></div>
+            <div><dt>Año</dt><dd>2025</dd></div>
+          </dl>
+          <p class="p-context">Un café que refleja elegancia, suavidad y autenticidad: un estilo sofisticado pero cercano, donde lo simple se vuelve un lujo cotidiano.</p>
+          <p class="p-context">Dos niveles en verde salvia, madera y detalles dorados, con vegetación y arcos. Zonas de atención, comedor, barra y coworking pensadas para distintos momentos de consumo.</p>
+          <div class="palette">
+            <div class="lbl">Materiales & paleta</div>
+            <div class="swatches">
+              <span class="sw" style="background:#acbc9c" title="Verde salvia"></span>
+              <span class="sw" style="background:#b49e83" title="Madera"></span>
+              <span class="sw" style="background:#b0afae" title="Terrazo gris"></span>
+              <span class="sw" style="background:#c9a96a" title="Dorado"></span>
+            </div>
+          </div>
+        </div>
+        <div class="p-media">
+          <figure class="tile big"><img src="src/img/creme-1.jpg" alt="Cafetería Crème: barra y vitrina" loading="lazy"></figure>
+          <figure class="tile"><img src="src/img/creme-2.jpg" alt="Cafetería Crème: comedor con vegetación colgante" loading="lazy"></figure>
+          <figure class="tile"><img src="src/img/creme-3.jpg" alt="Cafetería Crème: arcos y mesas" loading="lazy"></figure>
+        </div>
+      </div>
+      <div class="strip">
+        <figure><img src="src/img/creme-4.jpg" alt="Cafetería Crème: barra alta junto al ventanal" loading="lazy"><figcaption>Barra / coworking</figcaption></figure>
+        <figure class="plan"><img src="src/img/creme-mood-1.jpg" alt="Cafetería Crème: mobiliario de comedor" loading="lazy"><figcaption>Mobiliario</figcaption></figure>
+        <figure class="plan"><img src="src/img/creme-mood-2.jpg" alt="Cafetería Crème: mobiliario de barra" loading="lazy"><figcaption>Barra</figcaption></figure>
+        <figure class="plan"><img src="src/img/creme-mood-3.jpg" alt="Cafetería Crème: baños" loading="lazy"><figcaption>Baños</figcaption></figure>
+        <figure class="plan wide"><img src="src/img/creme-planos.jpg" alt="Cafetería Crème: plantas, cortes A-A' y B-B'" loading="lazy"><figcaption>Plantas y cortes</figcaption></figure>
+      </div>
+    </article>
+
+    <!-- 04 · PROYECTO RESIDENCIAL (VFB CONSULTORÍA) -->
+    <article class="project rev reveal" data-cat="profesional">
+      <div class="project-inner">
+        <div class="p-media">
+          <figure class="tile big"><img src="src/img/vfb-1.jpg" alt="Proyecto residencial: sala con vista a la ciudad" loading="lazy"></figure>
+          <figure class="tile"><img src="src/img/vfb-3.jpg" alt="Proyecto residencial: comedor" loading="lazy"></figure>
+          <figure class="tile"><img src="src/img/vfb-2.jpg" alt="Proyecto residencial: sala" loading="lazy"></figure>
+          <figure class="tile wide"><img src="src/img/vfb-4.jpg" alt="Proyecto residencial: cocina" loading="lazy"></figure>
+        </div>
+        <div class="p-text">
+          <div class="p-index">04</div>
+          <span class="badge-pro"><span class="spark"><svg><use href="#star"/></svg></span> Trabajo profesional</span>
+          <h3 class="p-title">Proyecto residencial</h3>
+          <dl class="p-meta">
+            <div><dt>Empresa</dt><dd>VFB Consultoría (práctica)</dd></div>
+            <div><dt>Alcance</dt><dd>Levantamiento, planos y diseño de sala-comedor</dd></div>
+            <div><dt>Año</dt><dd>2025</dd></div>
+          </dl>
+          <p class="p-context">Vivienda real. Hice el levantamiento de medidas en campo y los planos técnicos, y tuve a cargo el diseño de la sala-comedor: distribución y selección de mobiliario.</p>
+          <p class="p-context">El reto fue un ambiente funcional y acogedor que respondiera a las necesidades reales del cliente, con criterio estético y viabilidad.</p>
+          <div class="palette">
+            <div class="lbl">Materiales & paleta</div>
+            <div class="swatches">
+              <span class="sw" style="background:#574f4a" title="Topo"></span>
+              <span class="sw" style="background:#a5988b" title="Greige"></span>
+              <span class="sw" style="background:#21201f" title="Negro"></span>
+              <span class="sw" style="background:#e9e5da" title="Mármol claro"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ CONTACTO / CONTRAPORTADA ============ -->
+<section class="contact" id="contact">
+  <div class="contact-ghost" aria-hidden="true">GRACIAS</div>
+  <div class="wrap contact-grid">
+    <div>
+      <span class="eyebrow on-dark"><span class="spark"><svg><use href="#star"/></svg></span> Contacto</span>
+      <h2>Trabajemos juntos.</h2>
+      <p class="lead">¿Un local, un showroom o un espacio que necesita criterio? Escríbeme y lo conversamos.</p>
+      <div class="contact-rows">
+        <a class="crow" href="tel:+51906113162"><span class="k">Teléfono</span><span class="v">906 113 162</span></a>
+        <a class="crow" href="mailto:briannavaleriav@gmail.com"><span class="k">Correo</span><span class="v">briannavaleriav@gmail.com</span></a>
+        <a class="crow" href="https://www.linkedin.com/in/brianna-velasquez-dis" target="_blank" rel="noopener"><span class="k">LinkedIn</span><span class="v">in/brianna-velasquez-dis</span></a>
+      </div>
+    </div>
+    <div class="contact-mood">
+      <img src="src/img/moodboard.jpg" alt="Moodboard de materiales en tonos lavanda" loading="lazy">
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="foot">
+      <span class="brand"><span class="spark"><svg><use href="#star"/></svg></span> Brianna Valeria Velásquez Sierra</span>
+      <span>Interiorismo y Marketing · Proyección al Diseño Comercial · 2026</span>
+    </div>
+  </div>
+</section>
+
+<!-- visor de imágenes -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button type="button" class="lb-close" aria-label="Cerrar">✕</button>
+  <img alt="">
+  <p class="lb-cap"></p>
+</div>
+
+<script>
+  // Barra fija: aparece al pasar la portada
+  const header=document.getElementById('site-header');
+  const cover=document.getElementById('top');
+  const onScroll=()=>header.classList.toggle('scrolled',window.scrollY>cover.offsetHeight-90);
+  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+
+  // Menú a pantalla completa
+  const menu=document.getElementById('menu');
+  const setMenu=open=>{menu.classList.toggle('open',open);menu.setAttribute('aria-hidden',!open);document.body.classList.toggle('lock',open);};
+  document.querySelector('.burger').addEventListener('click',()=>setMenu(true));
+  menu.querySelector('.menu-close').addEventListener('click',()=>setMenu(false));
+  menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setMenu(false)));
+
+  // Reveal al entrar en viewport
+  const io=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+  },{threshold:.08});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  // Filtros de proyectos
+  const btns=document.querySelectorAll('.proj-filters button');
+  btns.forEach(b=>b.addEventListener('click',()=>{
+    btns.forEach(x=>x.classList.toggle('act',x===b));
+    document.querySelectorAll('.project').forEach(p=>{
+      p.hidden=b.dataset.f!=='all'&&!p.dataset.cat.split(' ').includes(b.dataset.f);
+    });
+  }));
+
+  // Visor de imágenes
+  const lb=document.getElementById('lightbox'),lbImg=lb.querySelector('img'),lbCap=lb.querySelector('.lb-cap');
+  const closeLb=()=>{lb.classList.remove('open');lb.setAttribute('aria-hidden','true');document.body.classList.remove('lock');};
+  document.querySelectorAll('.project img').forEach(img=>img.addEventListener('click',()=>{
+    lbImg.src=img.src;lbImg.alt=img.alt;lbCap.textContent=img.alt;
+    lb.classList.add('open');lb.setAttribute('aria-hidden','false');document.body.classList.add('lock');
+  }));
+  lb.addEventListener('click',e=>{if(e.target!==lbImg)closeLb();});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeLb();setMenu(false);}});
+</script>
+</body>
+</html>
